@@ -1,5 +1,5 @@
 {
-  "name": "dingtalk-robot",
+  "name": "dingtalk-robot-sender",
   "version": "1.0.0",
   "description": "钉钉机器人消息推送",
   "main": "index.js",
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/x-cold/dingtalk-robot#readme",
   "dependencies": {
     "axios": "^0.16.2"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
   }
 }
