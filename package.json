@@ -1,0 +1,26 @@
+{
+  "name": "dingtalk-robot",
+  "version": "1.0.0",
+  "description": "钉钉机器人消息推送",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-cold/dingtalk-robot.git"
+  },
+  "keywords": [
+    "dingtalk",
+    "robot"
+  ],
+  "author": "xcold <lxstart@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x-cold/dingtalk-robot/issues"
+  },
+  "homepage": "https://github.com/x-cold/dingtalk-robot#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
