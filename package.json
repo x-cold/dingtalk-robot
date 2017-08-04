@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/x-cold/dingtalk-robot.git"
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "keywords": [
     "dingtalk",
     "robot"
