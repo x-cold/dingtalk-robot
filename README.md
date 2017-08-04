@@ -9,6 +9,7 @@
 ### 1.1 创建机器人实例
 
 ```js
+const ChatBot = require('dingtalk-robot-sender');
 const robot = new ChatBot({
   webhook: 'https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxx'
 });

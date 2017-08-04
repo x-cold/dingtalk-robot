@@ -1,6 +1,6 @@
 {
   "name": "dingtalk-robot-sender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "钉钉机器人消息推送",
   "main": "index.js",
   "scripts": {
