@@ -6,6 +6,12 @@
 
 ## 1. 用法
 
+### 1.0 安装模块
+
+```
+npm install dingtalk-robot-sender --save
+```
+
 ### 1.1 创建机器人实例
 
 ```js
