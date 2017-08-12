@@ -133,6 +133,20 @@ let links = [
 robot.feedCard(links);
 ```
 
-## 运行环境
+## Environment
 
 + Node.js > v4.4.x
+
+## Test
+
+### Units Test
+
+```
+npm test
+```
+
+### Coverage
+
+```
+npm run ci
+```

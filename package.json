@@ -1,10 +1,14 @@
 {
   "name": "dingtalk-robot-sender",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "钉钉机器人消息推送",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/_mocha",
+    "_rm": "rm -rf ./coverage",
+    "cov": "node --harmony node_modules/.bin/istanbul cover --report none --print none --include-pid ./node_modules/.bin/_mocha -- \"test/**/*.test.js\" --harmony --reporter dot",
+    "report": "node --harmony node_modules/.bin/istanbul report --root ./coverage text-summary json lcov",
+    "ci": "npm run _rm && npm run cov && npm run report"
   },
   "repository": {
     "type": "git",
@@ -29,5 +33,14 @@
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "hapi": "^16.5.2",
+    "intelli-espower-loader": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "power-assert": "^1.4.4",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
   }
 }
