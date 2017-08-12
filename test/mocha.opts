@@ -1,0 +1,4 @@
+--require intelli-espower-loader
+--require should
+--recursive
+--timeout 30000
