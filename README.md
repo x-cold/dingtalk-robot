@@ -9,7 +9,7 @@
 ### 1.0 安装模块
 
 ```
-npm install dingtalk-robot-sender --save
+npm i dingtalk-robot-sender --save
 ```
 
 ### 1.1 创建机器人实例
@@ -19,6 +19,12 @@ const ChatBot = require('dingtalk-robot-sender');
 const robot = new ChatBot({
   webhook: 'https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxx'
 });
+
+// OR
+// const robot = new ChatBot({
+//  baseUrl: 'https://oapi.dingtalk.com/robot/send',
+//  acceessToekn: 'xxxxxxxxx'
+// });
 ```
 
 ### 1.2 发送钉钉消息
