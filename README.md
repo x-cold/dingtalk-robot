@@ -1,6 +1,7 @@
 # Dingtalk Robot
 
-[![](https://travis-ci.org/x-cold/dingtalk-robot.svg?branch=master)](https://travis-ci.org/x-cold/dingtalk-robot)
+[![](https://travis-ci.org/x-cold/dingtalk-robot.svg?branch=master)](https://travis-ci.org/x-cold/dingtalk-robot) [![codecov](https://codecov.io/gh/x-cold/dingtalk-robot/branch/master/graph/badge.svg)](https://codecov.io/gh/x-cold/dingtalk-robot)
+
 
 钉钉机器人Node.js SDK，基于官方提供的文档稍微抽象封装了一层，方便调用。
 
