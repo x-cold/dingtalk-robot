@@ -7,3 +7,6 @@ install:
   - npm i npminstall && npminstall
 script:
   - npm run ci
+branches:
+  only:
+    - master
