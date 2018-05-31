@@ -151,7 +151,7 @@ robot.feedCard(links);
 
 ## Environment
 
-+ Node.js > v4.4.x
++ Node.js > 6
 
 ## Test
 
