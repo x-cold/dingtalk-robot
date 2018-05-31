@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/x-cold/dingtalk-robot#readme",
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.16.2",
+    "urllib": "^2.28.0"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
