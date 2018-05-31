@@ -2,7 +2,6 @@
 
 [![](https://travis-ci.org/x-cold/dingtalk-robot.svg?branch=master)](https://travis-ci.org/x-cold/dingtalk-robot) [![codecov](https://codecov.io/gh/x-cold/dingtalk-robot/branch/master/graph/badge.svg)](https://codecov.io/gh/x-cold/dingtalk-robot)
 
-
 钉钉机器人Node.js SDK，基于官方提供的文档稍微抽象封装了一层，方便调用。
 
 官网链接：https://open-doc.dingtalk.com/docs/doc.htm?treeId=257&articleId=105735&docType=1
@@ -19,15 +18,23 @@ npm i dingtalk-robot-sender --save
 
 ```js
 const ChatBot = require('dingtalk-robot-sender');
+// 直接使用 webhook
 const robot = new ChatBot({
   webhook: 'https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxx'
 });
 
-// OR
-// const robot = new ChatBot({
-//  baseUrl: 'https://oapi.dingtalk.com/robot/send',
-//  acceessToekn: 'xxxxxxxxx'
-// });
+// 组合 baseUrl 和 acceessToekn
+const robot = new ChatBot({
+  baseUrl: 'https://oapi.dingtalk.com/robot/send',
+  acceessToekn: 'xxxxxxxxx'
+});
+
+// 自定义 httpclient
+const robot = new ChatBot({
+  baseUrl: 'https://oapi.dingtalk.com/robot/send',
+  acceessToekn: 'xxxxxxxxx',
+  httpclient: require('urllib')
+});
 ```
 
 ### 1.2 发送钉钉消息
