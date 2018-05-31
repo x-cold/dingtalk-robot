@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "codecov": "^3.0.0",
-    "hapi": "^16.5.2",
+    "hapi": "^17.5.1",
     "intelli-espower-loader": "^1.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.5.0",

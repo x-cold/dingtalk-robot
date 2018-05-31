@@ -11,60 +11,60 @@ module.exports = [
   {
     method: 'GET',
     path: '/sendText',
-    handler: function(res, reply) {
+    handler: function(res, h) {
       return robot.text(res.query)
       .then(data => {
-        reply(data.data);
+        return h.response(data.data);
       }).catch(err => {
-        reply(err);
+        return h.response(err);
       });
     }
   },
   {
     method: 'GET',
     path: '/sendLink',
-    handler: function(res, reply) {
+    handler: function(res, h) {
       return robot.link(res.query)
       .then(data => {
-        reply(data.data);
+        return h.response(data.data);
       }).catch(err => {
-        reply(err);
+        return h.response(err);
       });
     }
   },
   {
     method: 'GET',
     path: '/sendMarkdown',
-    handler: function(res, reply) {
+    handler: function(res, h) {
       return robot.markdown(res.query)
       .then(data => {
-        reply(data.data);
+        return h.response(data.data);
       }).catch(err => {
-        reply(err);
+        return h.response(err);
       });
     }
   },
   {
     method: 'GET',
     path: '/sendActionCard',
-    handler: function(res, reply) {
+    handler: function(res, h) {
       return robot.actionCard(res.query)
       .then(data => {
-        reply(data.data);
+        return h.response(data.data);
       }).catch(err => {
-        reply(err);
+        return h.response(err);
       });
     }
   },
   {
     method: 'GET',
     path: '/sendFeedCard',
-    handler: function(res, reply) {
+    handler: function(res, h) {
       return robot.feedCard(res.query)
       .then(data => {
-        reply(data.data);
+        return h.response(data.data);
       }).catch(err => {
-        reply(err);
+        return h.response(err);
       });
     }
   },
