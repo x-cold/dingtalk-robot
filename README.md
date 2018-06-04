@@ -149,6 +149,10 @@ let links = [
 robot.feedCard(links);
 ```
 
+## Examples
+
+https://github.com/x-cold/dingtalk-robot/tree/master/examples
+
 ## Environment
 
 + Node.js > 6
