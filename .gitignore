@@ -73,3 +73,5 @@ log
 .node-diamond-client-cache
 node_hsf_config_snapshots
 run
+
+package-lock.json
