@@ -1,6 +1,6 @@
 # Dingtalk Robot
 
-[![download](https://img.shields.io/npm/v/dingtalk-robot-sender.svg?style=flat-square)](https://npmjs.org/package/dingtalk-robot-sender) [![](https://travis-ci.org/x-cold/dingtalk-robot.svg?branch=master)](https://travis-ci.org/x-cold/dingtalk-robot) [![codecov](https://codecov.io/gh/x-cold/dingtalk-robot/branch/master/graph/badge.svg)](https://codecov.io/gh/x-cold/dingtalk-robot) [![download](https://img.shields.io/npm/dm/dingtalk-robot-sender.svg?style=flat-square)](https://npmjs.org/package/dingtalk-robot-sender)
+[![download](https://img.shields.io/npm/v/dingtalk-robot-sender.svg?style=flat-square)](https://npmjs.org/package/dingtalk-robot-sender) [![](https://travis-ci.org/x-cold/dingtalk-robot.svg?branch=master)](https://travis-ci.org/x-cold/dingtalk-robot) [![codecov](https://codecov.io/gh/x-cold/dingtalk-robot/branch/master/graph/badge.svg)](https://codecov.io/gh/x-cold/dingtalk-robot) [![download](https://badgen.net/npm/dt/dingtalk-robot-sender)](https://npmjs.org/package/dingtalk-robot-sender)
 
 钉钉机器人Node.js SDK，基于官方提供的文档稍微抽象封装了一层，方便调用。
 
