@@ -23,16 +23,18 @@ const robot = new ChatBot({
   webhook: 'https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxx'
 });
 
-// 组合 baseUrl 和 accessToken
+// 组合 baseUrl 和 accessToken 如果采用加签方式的安全设置，同时填写secret
 const robot = new ChatBot({
   baseUrl: 'https://oapi.dingtalk.com/robot/send',
-  accessToken: 'xxxxxxxxx'
+  accessToken: 'xxxxxxxxx',
+  secret: 'xxxxxxxx',
 });
 
 // 自定义 httpclient
 const robot = new ChatBot({
   baseUrl: 'https://oapi.dingtalk.com/robot/send',
   accessToken: 'xxxxxxxxx',
+  secret: 'xxxxxxxx',
   httpclient: require('urllib')
 });
 ```
