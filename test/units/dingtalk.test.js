@@ -5,7 +5,8 @@ const ChatBot = require('../../');
 const defaultOptions = {
   baseUrl: 'https://oapi.dingtalk.com/robot/send',
   accessToken: 'xxxxx',
-  webhook: 'https://oapi.dingtalk.com/robot/send?acceessToken=xxxxx'
+  webhook: 'https://oapi.dingtalk.com/robot/send?acceessToken=xxxxx',
+  secret: 'SECxxxxx'
 };
 
 describe('Chatbot Constructor', () => {
