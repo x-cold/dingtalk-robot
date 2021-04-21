@@ -16,7 +16,8 @@
   },
   "files": [
     "index.js",
-    "lib"
+    "lib",
+    "index.d.ts"
   ],
   "keywords": [
     "dingtalk",
@@ -43,5 +44,6 @@
     "power-assert": "^1.4.4",
     "should": "^11.2.1",
     "supertest": "^3.0.0"
-  }
+  },
+  "types": "index.d.ts"
 }
